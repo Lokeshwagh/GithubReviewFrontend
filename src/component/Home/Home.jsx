@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import Loader from "../Loader.jsx";
-import HappyGit from "../../assets/HappyGit.png";
+import HappyGit from "../../assets/happyGit.png";
 
 import chaiImg from "../../assets/chaiimg.png";
 //import Baychai from "../BayChai/Bhaichai.jsx";
