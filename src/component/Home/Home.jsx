@@ -52,9 +52,10 @@ function Home() {
       await new Promise((resolve) => setTimeout(resolve, 1500));
 
       const res = await fetch("https://githubreviewerbackend-2.onrender.com/api/review", {
+      //  const res = await fetch("http://localhost:5000/api/review", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({  username}),
+        body: JSON.stringify({username}),
       });
 
       const data = await res.json();
